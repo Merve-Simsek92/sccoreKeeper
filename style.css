@@ -1,0 +1,18 @@
+h3{
+  display: inline  ;
+}
+.container{
+ width: 60%;
+ display: block;
+ margin: auto;
+}
+
+img{
+    width:60%;
+    /* margin:auto;
+    display: block; */
+}
+.bottom{
+    width: 60%;
+    margin: auto;
+}
