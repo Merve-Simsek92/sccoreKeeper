@@ -1,18 +1,97 @@
-h3{
-  display: inline  ;
-}
-.container{
- width: 60%;
- display: block;
- margin: auto;
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Merve-Simsek92 
+cw-barry
+/
+score-keeper
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+score-keeper/score.css
+@cw-barry
+cw-barry update css
+Latest commit fa7a740 2 days ago
+ History
+ 1 contributor
+56 lines (50 sloc)  780 Bytes
+   
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
 }
 
-img{
-    width:60%;
-    /* margin:auto;
-    display: block; */
+img {
+  padding: 2% 15%;
+  margin: auto;
+  width: 70%;
 }
-.bottom{
-    width: 60%;
-    margin: auto;
+
+.scoreboard {
+  display: flex;
+  padding: 0px 16px;
+  justify-content: space-evenly;
 }
+
+.game {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  width: 90%;
+  background: white;
+  box-shadow: 4px 10px 16px rgba(0, 0, 0, 0.12);
+}
+
+.scores {
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  flex: 1;
+  padding: 16px 8px;
+  border: 0px;
+  margin: 1px;
+}
+button:first-child {
+  background: lightgreen;
+}
+button {
+  background: lightblue;
+}
+button:last-child {
+  background: rgb(285, 201, 206);
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
